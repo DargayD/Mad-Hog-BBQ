@@ -1,0 +1,392 @@
+@charset "utf-8";
+
+body {
+    background-image: url("Screenshots/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 2560px 476px;
+}
+
+nav {
+    overflow: hidden;
+    background-color: #141514;
+    text-align: center;
+    padding: 20px 20px;
+    position: relative;
+    top: 100px; /*Moves nav bar down */
+
+}
+
+.topnav a {
+    color: white;
+    text-align: center;
+    padding: 14px 120px;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+
+.about{ 
+    color: black;
+    position: relative;
+    top: 200px;
+    font-family: sans-serif;
+} 
+
+p {
+    font-size: 24px;
+    text-align: center;
+
+}
+
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.roseMeat {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#landingProduct h1 {
+    text-align: center;
+    position: relative;
+    top: 260px;
+    font-family: sans-serif;
+}
+
+.merch {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
+    top: 270px;
+}
+
+.button {
+    background-color: orangered;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: sans-serif;
+
+}
+
+.buttonPos {
+    position: relative;
+    text-align: center;
+    top: 300px;
+}
+
+
+
+
+.dailyMenu {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+
+
+.dailyMenu ul {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    top: 100px;
+    position: relative;
+    font-family: sans-serif;
+    font-size: 24px;
+    padding: 5em;
+}
+
+
+.dailyMenu h1 {
+    font-size: 40px;
+    position: relative;
+    top: 200px;
+}
+
+
+.dailyPhotos {
+    content: "";
+    clear: both;
+    text-align: center;
+}
+
+
+.column {
+    width: 15%;
+    padding: 50px;
+    display:inline-block;
+}
+
+
+.caterMenu {
+    text-align: center;
+    font-family: sans-serif;
+    top: 200px;
+    position: relative;
+}
+
+
+
+.caterMenu ul {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    position: relative;
+    font-family: sans-serif;
+    font-size: 24px;
+    padding: 5em;
+    top: -100px;
+}
+
+.caterPhotos {
+    content: "";
+    clear: both;
+    text-align: center;
+}
+
+
+.caterColumn {
+    width: 15%;
+    padding: 50px;
+    display:inline-block;
+}
+
+
+.merchandise { 
+    color: black;
+    position: relative;
+    top: 200px;
+    font-family: sans-serif;
+} 
+
+.productMeat {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    top: 300px;
+}
+
+
+.productPhotos {
+    content: "";
+    clear: both;
+    text-align: center;
+}
+
+
+.productColumn {
+    width: 15%;
+    padding: 10px;
+    display:inline-block;
+    top: 200px;
+    position: relative;
+}
+
+
+.productMerch { 
+    color: black;
+    position: relative;
+    top: 500px;
+    font-family: sans-serif;
+}
+
+
+.merchPrice ul {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    top: 350px;
+    position: relative;
+    font-family: sans-serif;
+    font-size: 24px;
+    padding: 5em;
+}
+
+
+.merchPrice {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.locationPic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.location {
+    color: black;
+    position: relative;
+    top: 200px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.table {
+    position: relative;
+    top: 300px;
+    table-layout: fixed;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    font-size: 14px;
+
+}
+
+td {
+    border: 1px solid black;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: brown;
+    color: white;
+    position: absolute;
+    width: 100%;
+    top: 1800px;
+    height: 150px;   
+}
+
+.menuFoot {
+    top:2200px;
+}
+
+.galleryFoot {
+    top:2200px;
+}
+
+.productFoot {
+    top:2500px;
+}
+
+.homeFoot {
+    top:2000px;
+}
+
+.contactInfo {
+    position: relative;
+    top: 400px;
+    font-family: sans-serif;
+}
+
+
+.gallery1 {
+    content: "";
+    clear: both;
+    text-align: center;
+}
+
+.gallery2 {
+    content: "";
+    clear: both;
+    text-align: center;
+}
+
+
+.link1 { 
+    position: relative;
+    top: 150px;
+    font-family: sans-serif;
+    text-align: center;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
